@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_16996_branching.feature2</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>feature2</name>
+        <script><![CDATA[var feature2 = Class.create();
+feature2.prototype = {
+    initialize: function() {
+    },
+
+    type: 'feature2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-20 20:06:39</sys_created_on>
+        <sys_id>8869861cdb81130055bef91ebf9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>feature2</sys_name>
+        <sys_package display_value="Branching" source="x_16996_branching">2a8b7cc4db41130055bef91ebf96191f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Branching">2a8b7cc4db41130055bef91ebf96191f</sys_scope>
+        <sys_update_name>sys_script_include_8869861cdb81130055bef91ebf9619f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-20 20:06:39</sys_updated_on>
+    </sys_script_include>
+</record_update>
